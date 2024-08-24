@@ -10,5 +10,6 @@ And there's no denying that Google has established itself as a search engine mon
 
 On 15th May 2024, Google silently launched a new <strong><em><a href="https://x.com/searchliaison/status/1790473952256786805">Web</a></em></strong> mode to it's search engine. However in classic google manner, it is buried under multiple layers of menus. Thus, I decided to make it accessible to everyone by just creating this simple browser extension.
 
-![Web search tab on Google app on phone](https://pbs.twimg.com/media/GNkKf-DacAA26HU?format=jpg&name=900x900)
-
+## Why Web search mode?
+Some people just want a clean search result.
+![Search Results](assets/image.png)
