@@ -1,0 +1,51 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background: #252525;
+  color: #e6e4e4b6;
+}
+
+button {
+  margin: 5px 0;
+}
+
+a {
+  color: #e6e4e4b6;
+  text-decoration: none;
+}
+
+h1 {
+  width: 100%;
+  text-align: center;
+}
+
+header {
+  font-size: 1.3rem;
+  padding: 5% 0;
+}
+
+.enabled-button {
+    background: rgb(18, 140, 197);
+    padding: 2%;
+    border-radius: 20px;
+    border: 0px;
+}
+
+.container,
+.container-index {
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  flex-direction: column;
+  padding: 5%;
+}
+
+.container-index {
+  align-items: self-start;
+  width: 70%;
+}

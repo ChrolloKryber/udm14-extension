@@ -1,0 +1,24 @@
+{
+  "manifest_version": 2,
+  "name": "Google Web Search",
+  "version": "1.0",
+
+  "description": "Redirect your Google searches to a cleaner result page, inspired by the cool people at https://udm14.org/.",
+  "icons": {
+    "128": "icon128.png"
+  },
+
+  "browser_action": {
+    "default_icon": "icon128.png",
+    "default_popup": "popup.html"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://www.google.com/search*"],
+      "js": ["index.js"]
+    }
+  ],
+  
+  "permissions": ["activeTab", "storage"]
+}
