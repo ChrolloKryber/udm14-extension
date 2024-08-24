@@ -52,3 +52,9 @@ header {
   align-items: self-start;
   width: 70%;
 }
+
+.container-index > img {
+  padding: 10% 0;
+  align-self: center;
+  width: 100%;
+}
