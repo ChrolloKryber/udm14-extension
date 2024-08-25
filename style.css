@@ -27,8 +27,7 @@ h1 {
   text-align: center;
 }
 
-header {
-  font-size: 1.3rem;
+h2 {
   padding: 5% 0;
 }
 
@@ -55,6 +54,5 @@ header {
 
 .container-index > img {
   padding: 10% 0;
-  align-self: center;
   width: 100%;
 }

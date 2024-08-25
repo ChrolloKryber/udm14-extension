@@ -4,13 +4,15 @@
   "version": "1.0",
 
   "description": "Redirect your Google searches to a cleaner result page, inspired by the cool people at https://udm14.org/.",
+  "homepage_url": "https://github.com/ChrolloKryber/udm14-extension/",
   "icons": {
     "128": "icon128.png"
   },
 
   "browser_action": {
     "default_icon": "icon128.png",
-    "default_popup": "popup.html"
+    "default_popup": "popup.html",
+    "default_title": "UDM14 Redirect"
   },
 
   "content_scripts": [
@@ -19,6 +21,6 @@
       "js": ["index.js"]
     }
   ],
-  
-  "permissions": ["activeTab", "storage"]
+
+  "permissions": ["activeTab", "storage", "tabs"]
 }
